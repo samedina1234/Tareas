@@ -1,0 +1,129 @@
+body {
+    font-family: "Karla";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #e6eef7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenido {
+    color: white;
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#btn {
+    font-family: "Karla";
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #bede32;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+
+#arriba {
+    grid-column: 1 / 3;
+    background-color: #fefeff;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-content: center;
+    text-align: left;
+}
+
+#arriba h1 {
+    color: #00ffff;
+    line-height: 20px;
+}
+
+#arriba h1::first-letter {
+    text-transform: capitalize;
+}
+
+#arriba h2 {
+    color: #bede32;
+    line-height: 20px;
+}
+
+#arriba p {
+    color: #808080;
+    line-height: 10px;
+}
+
+#arriba p::first-letter {
+    text-transform: capitalize;
+}
+
+#izquierda {
+    background-color: #2ab2b1;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    align-content: center;
+    place-content: center;
+}
+
+#izquierda h2 {
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+#precio {
+    display: flex;
+    justify-content: left;
+}
+
+#money {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#subtext {
+    font-size: 10px;
+    place-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#minitxt {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#minitxt::first-letter {
+    text-transform: capitalize;
+}
+
+#derecha {
+    background-color: #4bbfbd;
+    padding: 15px;
+    border-bottom-right-radius: 5px;
+    align-content: center;
+    place-content: center;
+}
+
+#derecha h2 {
+    text-transform: capitalize;
+    line-height: 6px;
+}
+
+.poema {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: 16px;
+}
+
+.poema::first-letter {
+    text-transform: capitalize;
+}
